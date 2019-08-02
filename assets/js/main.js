@@ -1,4 +1,4 @@
-const logos = [...Array(19).keys()]
+const logos = [...Array(39).keys()]
 
 const randomize = (n) => logos.sort(() => 0.5 - Math.random()).slice(0, n);
 
