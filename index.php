@@ -36,10 +36,11 @@
               shuffle($randomize);
               foreach ($randomize as $randomize) {
                 echo '<div class="col-3">';
-                  echo '<img class="w-100 mt-4" src="assets/img/' . $randomize . '.png" alt="img">';
+                  echo '<img class="w-100 mt-4 random-image" src="assets/img/' . $randomize . '.png" alt="img">';
                 echo '</div>';
               }
             ?>
+
           </div>
         </div>
       </div>
